@@ -34,7 +34,7 @@ if choice == 0:
 	print 'dice remaining is %s with number %s'%(len(res[0]), res[0])
 
 	if len(res) == 4:
-		print 'the winner is player nothing'
+		print 'the winner is nothing'
 		print 'game was reset'
 	else:
 		choice2 = input('type the number of 0 to throw dice again : ')	
