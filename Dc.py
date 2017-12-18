@@ -44,7 +44,11 @@ if choice == 0:
 		print 'result of dice : %s'%(dc)
 		rest = throw(dc)
 		print rest[0]
-		choice2 = input('type the number of 0 to throw dice again : ')
+		if len(rest) == 3
+			print 'the winner is player number %s'% (int(res[1])+1)
+			print 'game over'
+		else:
+			choice2 = input('type the number of 0 to throw dice again : ')
 		if choice2 == 0:
 			d3 = roll(2)
 			print 'result of dice : %s'%(d3)
